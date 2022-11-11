@@ -1,6 +1,7 @@
 # Baze-Podataka-Hotel
 
-Projekat u kome je potrebno modelovati i napraviti bazu podataka za hotel.
+Projekat u kome je potrebno modelovati i napraviti bazu podataka za hotel. 
+Mentor: Dr Dušan Marković
 
 Model Objekti Veze
 
@@ -19,15 +20,4 @@ Tabela održanja kardinaliteta
 
 Relaciona šema
 
-TipSobe(TipSobeID, Vrsta_Sobe)
-Sprat (SpratID, Broj_Sprata)
-TrenutnoStanjeSobe (StanjeID, VrstaPogleda)
-Pogled (PogledID, Vrsta_Pogleda)
-Soba (SobaID, TipSobeID, SpratID, StanjeID, PogledID, Broj_Sobe)
-Radnik(RadnikID, PosaoID, Telefon, Ime, Prezime, Adresa, JMBG, GodinaRodjenja)
-Posao (PosaoID, Naziv_Posla)
-Usluga (UslugaID, Vrsta_Usluge, Nacin_Placanja, Cena)
-VrstaPlacanja (VrstaID, Naziv_Vrste)
-Cek(CekID,BookingID, BrojCeka, Naziv_Banke)
-Gost (GostID, Ime, Prezime, BrLK_Pas, DatPocUsluge)
-Booking (BookingID, SobaID, UslugaID, VrstaPlacanjaID, GostID, RadnikID, DatPocetka, DatZavrsetka,Ukupno)
+![Screenshot_6](https://user-images.githubusercontent.com/111191947/201308169-77b4f605-927c-4b83-85bb-3f09c28bd6c7.png)
