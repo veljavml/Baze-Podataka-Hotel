@@ -1,6 +1,7 @@
 # Baze-Podataka-Hotel
 
 Projekat u kome je potrebno modelovati i napraviti bazu podataka za hotel. 
+
 Mentor: Dr Dušan Marković
 
 Model Objekti Veze
